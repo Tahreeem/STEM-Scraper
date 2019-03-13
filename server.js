@@ -30,7 +30,8 @@ app.use(routes);
 
 
 mongoose.set('useCreateIndex', true);
-mongoose.connect("mongodb://localhost/scraperdb", { useNewUrlParser: true });
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/scraperdb";
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 var dbConnection = mongoose.connection;
 dbConnection.on('error', console.error.bind(console, 'connection error:'));
 var collectionNames;
