@@ -114,7 +114,7 @@ function nautilusScraper(dollarElem) {
     result.description = dollarElem
         .find('p')
         .text();
-    result.link = "http://nautil.us" +
+    result.link = "https://nautil.us" +
         dollarElem
             .find("h3 a")
             .attr("href");
