@@ -1,0 +1,34 @@
+#natureLogo {
+    background-color: #222;
+    width: 50%;
+    height: 100%;
+    margin-left: -5%;
+  }
+
+  #nautilusLogo {
+    width: 80%;
+    height: 100%;
+    margin-left: -5%;
+  }
+
+  #quantaLogo {
+    width: 108%;
+    height: 100%;
+    margin-left: -5%;
+  }
+
+  #article-template {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+ 
+#articles {
+    display: flex;
+    flex-wrap: wrap;
+    margin:1%;
+  }
+
+  .card {
+    margin:1%;
+  }
