@@ -1,4 +1,4 @@
-$.ajax('http://localhost:3000/api/articles', {
+$.ajax('/api/articles', {
   type: 'GET',
   //data: JSON.stringify(formdata),
   contentType: 'application/json',
